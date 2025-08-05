@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Tags Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    .media-section {
+      margin-bottom: 40px;
+    }
+    video, audio {
+      width: 100%;
+      max-width: 500px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎨 HTML Media Tags Example</h1>
+
+  <!-- Image Section -->
+  <div class="media-section">
+    <h2>🖼️ Image Tag</h2>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Sample Image">
+    <p>This is an image displayed using the <code>&lt;img&gt;</code> tag.</p>
+  </div>
+
+  <!-- Audio Section -->
+  <div class="media-section">
+    <h2>🎧 Audio Tag</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This is an audio file using the <code>&lt;audio&gt;</code> tag with controls.</p>
+  </div>
+
+  <!-- Video Section -->
+  <div class="media-section">
+    <h2>🎬 Video Tag</h2>
+    <video controls poster="https://www.w3schools.com/html/img_girl.jpg">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>This is a video embedded using the <code>&lt;video&gt;</code> tag.</p>
+  </div>
+
+  <!-- Iframe Section -->
+  <div class="media-section">
+    <h2>🌍 Iframe Tag</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+            title="YouTube video" frameborder="0" allowfullscreen></iframe>
+    <p>This is a YouTube video embedded using the <code>&lt;iframe&gt;</code> tag.</p>
+  </div>
+
+</body>
+</html>
